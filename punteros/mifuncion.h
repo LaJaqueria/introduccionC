@@ -1,0 +1,1 @@
+void calcularTriple(int*, int);
