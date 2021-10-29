@@ -22,6 +22,14 @@ docker run --rm <ejercicio>
 
 **NOTA:** Debe de coincidir el nombre de < ejercicio > tanto el build como en run.
 
+## Limpiar imagenes docker
+
+Para no tener muchas imagenes sin usar, recomendamos ejecutar una vez finalizado el siguiente comando:
+
+```bash
+docker image prune -a
+```
+
 ## VSCode
 
 En cada ejercicio se ha creado una carpeta .vscode con distintas tareas que se puede ejecutar para compilar y ejecutar usando el Editor Visual Studio Code.
