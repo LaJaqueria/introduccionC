@@ -11,5 +11,9 @@ int main(int argc, char* args){
         scanf("%d",&misnumeros[i]);
     }
     //TODO: mostrar el doble
+
+    for(int j=0;j<MAXNUM;j++){
+        printf("%d, ",2*misnumeros[j]);
+    }
     return 0;
 }

@@ -9,6 +9,8 @@ int main(int argc, char* args){
     calcularTriple(misnumeros,MAXNUM);
 
     //TODO:mostrar resultado
-
+    for(int k=0;k<MAXNUM;k++){
+        printf("%d, ",misnumeros[k]);
+    }
     return 0;
 }

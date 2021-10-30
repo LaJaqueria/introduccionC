@@ -9,11 +9,13 @@ int main(int argc, char* args){
 
     
     for(int i=0;i<MAXPERS;i++){
-        //TODO: almacenar 10 personas y guardarlo en el array
+       Persona aux ={22,"aaa","bbb"};
+       personas[i]=aux;
     }
 
     for(int j=0;j<MAXPERS;j++){
-        //TODO: mostrar las 10 personas con sus datos...
+        
+        printf("[%d,%s,%s], ",personas[j].edad,personas[j].nombre,personas[j].nacionalidad);
     }
 
     return 0;

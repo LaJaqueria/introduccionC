@@ -2,6 +2,10 @@
 
 int main(){
     //mostrar el doble de los 10 primeros numeros
-    //TODO
+    for (int i = 0; i < 10; i++)
+    {
+       printf("%d, ", i*2);
+    }
+    
     return 0;
 }
