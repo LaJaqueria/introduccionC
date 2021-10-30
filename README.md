@@ -29,6 +29,9 @@ Para no tener muchas imagenes sin usar, recomendamos ejecutar una vez finalizado
 ```bash
 docker image prune -a
 ```
+## Soluciones
+
+Las soluciones de los ejercicios pueden encontrarse en la rama "soluciones".
 
 ## VSCode
 
